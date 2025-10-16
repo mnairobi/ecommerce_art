@@ -1,12 +1,4 @@
--- Drop existing tables if they exist (for development resets)
-DROP TABLE IF EXISTS deliveries CASCADE;
-DROP TABLE IF EXISTS payments CASCADE;
-DROP TABLE IF EXISTS reviews CASCADE;
-DROP TABLE IF EXISTS order_items CASCADE;
-DROP TABLE IF EXISTS orders CASCADE;
-DROP TABLE IF EXISTS paintings CASCADE;
-DROP TABLE IF EXISTS artist_profiles CASCADE;
-DROP TABLE IF EXISTS users CASCADE;
+
 
 -- Users table
 CREATE TABLE users (
